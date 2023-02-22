@@ -17,4 +17,4 @@ function swapVariables(value1,value2){//var value1=num1, var value2=num2
   var swapResult1=swapVariables(str1,str2);
   console.log(swapResult1);
 
-varAge
+var Age=22;
