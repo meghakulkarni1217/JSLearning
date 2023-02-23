@@ -1,0 +1,1 @@
+console.log(`==Please use ternary operator and function expression`);
