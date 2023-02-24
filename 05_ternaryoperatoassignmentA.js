@@ -1,67 +1,32 @@
-var num1=10;
-var num2=-10;
-function greaterNumber(){
-result=num1>=num2;
-return greaterNumber;
+function greaterNumber(num1,num2){
+  var result=num1>num2 ? num1:num2;
+  console.log(`Greater number amongst ${num1},${num2} is:${result}`);
 }
- var greatervalue=greaterNumber(num1,num2);
-console.log(`The given no 10 is more than -10`);
-console.log(result);
+greaterNumber(10,-10);
+greaterNumber(800,899);
+console.log(`______________Step2______________`);
 
-var num1=800;
-var num2=899;
-function greaterNumber(){
-result=num1>=num2;
-return greaterNumber;
+function isEvenOrOddNum(num){
+    var result1=num%2==0 ? "True":"False";
+    return result1;
 }
- var greatervalue=greaterNumber(num1,num2);
-console.log(`The given no 800 is  not more than 899`);
-console.log(result);
-  console.log(`===Step2===`);
-var num=29;
-function isEvenOrOdd(){
-    result= num%2==0?"Even":"Odd";
-    return isEvenOrOdd;
-}
-var EvenOdd=isEvenOrOdd(num);
-console.log(`The given no is 29`);
-console.log(result);
-
-var num=44;
-function isEvenOrOdd(){
-    result= num%2==0?"Even":"Odd";
-    return isEvenOrOdd;
-}
-var EvenOdd=isEvenOrOdd(num);
-console.log(`The given no is 44`);
-console.log(result);
-
-var num=0;
-function isEvenOrOdd(){
-    result= num%2==0?"Even":"Odd";
-    return isEvenOrOdd;
-}
-var EvenOdd=isEvenOrOdd(num);
-console.log(`The given no is 0`);
-console.log(result);
-
-var num=101;
-function isEvenOrOdd(){
-    result= num%2==0?"Even":"Odd";
-    return isEvenOrOdd;
-}
-var EvenOdd=isEvenOrOdd(num);
-console.log(`The given no is 101 `);
-console.log(result);
-
-console.log(`==Step 3==`);
+var result1=isEvenOrOddNum(29);
+var result2=isEvenOrOddNum(44);
+var result3=isEvenOrOddNum(0);
+var result4=isEvenOrOddNum(101);
+console.log(`29 is Even or Odd:${result1}`);
+console.log(`44 is Even or Odd:${result2}`);
+console.log(`0 is Even or Odd:${result3}`);
+console.log(`101 is Even or Odd:${result4}`);
+console.log(`____________________step3_____________________`);
 function wordLength(word){
-    var wordLength = word.length;
-    var result = wordLength%2==0 ? "EVEN" : "ODD";
+    var wordLength=word.length;
+     var result=wordLength%2==0?"Even":"Odd";
     return result;
- }
- var result = wordLength("JavaScript");
- console.log(`Word "JavaScript" has ${result} length` );
- console.log(`Word "Google" has ${wordLength("Google")} length` );
- var result = wordLength("Developer");
- console.log(`Word "Developer" has ${wordLength("Developer")} length` );
+}
+var result=wordLength("javascript");
+var result1=wordLength("developer");
+var result2=wordLength("Google Chrome");
+console.log(`Word "javascript" has length:${result}`);
+console.log(`Word "developer" has length:${result1}`);
+console.log(`Word "google chrome" has length:${result2}`);
