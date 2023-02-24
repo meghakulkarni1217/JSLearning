@@ -1,32 +1,8 @@
-console.log(`==Please use ternary operator and function expression`);
-function TCSintervieweligibility(gradScore,hscScore,sscScore,candidateName){
-var gradScore=80;
-var hscScore=86;
-var sscScore=90;
-var result=gradScore>=80||hscScore>=86||sscScore>=90?`Hey ${candidateName} Congrats you are eligible for TCS interview` :"Your marks are below";
-return result;
-}
-var result = TCSintervieweligibility("gradScore","hscScore","sscScore", "Megha");
-console.log(result);
-
-function TCSintervieweligibility(gradScore,hscScore,sscScore,candidateName){
-    var gradScore=70;
-    var hscScore=65;
-    var sscScore=55;
-    var result=gradScore>=70||hscScore>=65||sscScore>=55?`Hey ${candidateName} Congrats you are eligible for TCS interview` :"Your marks are below";
-    return result;
-    }
-    var result = TCSintervieweligibility("gradScore","hscScore","sscScore", "Bhagya");
+function tcsInterviewcheck(grdScore,hscScore,sscScore,candidateName){
+    var result=grdScore>=70 || hscScore>=80 ||sscScore>90 ?`Congrats ${candidateName} you are eligible for TCS interview`:` Hey ${candidateName} you are not eligible`;
     console.log(result);
-
-    function TCSintervieweligibility(gradScore,hscScore,sscScore,candidateName){
-        var gradScore=60;
-        var hscScore=79;
-        var sscScore=88;
-        var result=gradScore>=60||hscScore>=79||sscScore>=88?`Hey ${candidateName} Congrats you are eligible for TCS interview` :"Your marks are below";
-        return result;
-        }
-        var result = TCSintervieweligibility("gradScore","hscScore","sscScore", "Anuja");
-        console.log(result);
-        
-    
+}
+tcsInterviewcheck(80,86,90,"Billgates");
+tcsInterviewcheck(70,65,55,"StewJob");
+tcsInterviewcheck(60,79,88,"Marks");
+tcsInterviewcheck(60,78,54,"frd")
