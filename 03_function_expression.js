@@ -1,14 +1,13 @@
  function checkLeapyear(leap_year) {
  if ((0 == leap_year % 4) && (0 != leap_year % 100) || (0 == leap_year % 400)) {
-        console.log(leap_year +' is a leap year ');
-      }
-      if (typeof leap_year!="number") {
-        console.log(`Please provide the valid year ${leap_year}`);
+        console.log(leap_year  + ' is a leap year ');
       }
      else{
-         console.log( leap_year +'is not a leap year');
-      
-    }
+         console.log( leap_year  + 'is not a leap year');
+       }
+        if (typeof leap_year!="number") {
+          console.log(`Please provide the valid year ${leap_year}`);
+       }
 }
 checkLeapyear(2020);
 checkLeapyear(1999);
