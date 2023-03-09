@@ -49,3 +49,5 @@ console.log(arraySeasonalFruits);
 arraySeasonalFruits.splice(0,4);
 console.log(`Only Select last 3 elements:${arraySeasonalFruits}`);
 
+
+
