@@ -1,0 +1,133 @@
+console.log(`___________________________Step1________________`);
+class Vehicle{
+    constructor(carName,color,engine,price){
+        this.carName=carName;
+        this.color=color;
+        this.engine=engine;
+        this.price=price;
+    }
+}
+const swiftDzire = new Vehicle("swiftDzire", "Premium Silver", "Petrol","9.31lpa" );
+console.log(swiftDzire);
+
+const tataTiago=new Vehicle("Tata Tiago","White","diesel","4.4lpa");
+console.log(tataTiago);
+
+const BMW=new Vehicle("BMW","grey","diesel","1.22Cr");
+console.log(BMW);
+
+const  HyundaiElite=new Vehicle("HyundaiElite","Phantom Black","Petrol","6.06lpa");
+console.log(HyundaiElite);
+
+const MarutiSuzukiSwift=new Vehicle("MarutiSuzukiSwift","SolidFireRed","Petrol","4.08lpa");
+console.log(MarutiSuzukiSwift);
+console.log(`__________Traverse it________________`);
+for (const key in swiftDzire) {
+    if (Object.hasOwnProperty.call(swiftDzire, key)) {
+        const element = swiftDzire[key];
+      
+      }
+}
+const keysOfswiftDzire=Object.keys(swiftDzire);
+console.log(keysOfswiftDzire);
+
+const valuesOfswiftDzire=Object.values(swiftDzire);
+console.log(valuesOfswiftDzire);
+
+for (const key in tataTiago) {
+    if (Object.hasOwnProperty.call(tataTiago, key)) {
+        const element = tataTiago[key];
+      
+      }
+}
+const valuesOftataTiago=Object.values(tataTiago);
+console.log(valuesOftataTiago);
+
+for (const key in BMW) {
+    if (Object.hasOwnProperty.call(BMW, key)) {
+        const element = BMW[key];
+      
+      }
+}
+const valuesOfBMW=Object.values(BMW);
+console.log(valuesOfBMW);
+
+for (const key in HyundaiElite) {
+    if (Object.hasOwnProperty.call(HyundaiElite, key)) {
+        const element = HyundaiElite[key];
+      
+      }
+}
+const valuesOfHyundaiElite=Object.values(HyundaiElite);
+console.log(valuesOfHyundaiElite);
+
+for (const key in MarutiSuzukiSwift) {
+    if (Object.hasOwnProperty.call(MarutiSuzukiSwift, key)) {
+        const element = MarutiSuzukiSwift[key];
+      
+      }
+}
+const valuesOfMarutiSuzukiSwift=Object.values(MarutiSuzukiSwift);
+console.log(valuesOfMarutiSuzukiSwift);
+console.log(`________________________Step2____________________________`);
+class College{
+    constructor(clgName,University,location,departName){
+        this.clgName=clgName;
+        this.University=University;
+        this.location=location;
+        this.departName=departName;
+    }
+}
+const Sangolaclg = new College("SangolaCollege", "Solapur", "Sangola","ComputerScience" );
+console.log(Sangolaclg);
+
+const Dypatil = new College("DYpatil", "Pune", "Pune","ComputerScienceApplication" );
+console.log(Dypatil);
+
+const Shinhgadclg = new College("Shinhgad", "Solapur", "Pandharpur","Sivil" );
+console.log(Shinhgadclg);
+
+const Svericlg = new College("Sveri", "Solapur", "Gopalpur","Mechanical" );
+console.log(Svericlg);
+console.log(`___________________________Travers it_________________`);
+for (const key in Sangolaclg) {
+    if (Object.hasOwnProperty.call(Sangolaclg, key)) {
+        const element = Sangolaclg[key];
+      
+      }
+}
+const keysOfSangolaclg=Object.keys(Sangolaclg);
+console.log(keysOfSangolaclg);
+
+const valuesOfSangolaclg=Object.values(Sangolaclg);
+console.log(valuesOfSangolaclg);
+
+for (const key in Dypatil) {
+    if (Object.hasOwnProperty.call(Dypatil, key)) {
+        const element = Dypatil[key];
+      
+      }
+}
+const valuesOfDypatil=Object.values(Dypatil);
+console.log(valuesOfDypatil);
+
+for (const key in Shinhgadclg) {
+    if (Object.hasOwnProperty.call(Shinhgadclg, key)) {
+        const element = Shinhgadclg[key];
+      
+      }
+}
+const valuesOfShingadclg=Object.values(Shinhgadclg);
+console.log(valuesOfShingadclg);
+
+for (const key in Svericlg) {
+    if (Object.hasOwnProperty.call(Svericlg, key)) {
+        const element = Svericlg[key];
+      
+      }
+}
+const valuesOfSvericlg=Object.values(Svericlg);
+console.log(valuesOfSvericlg);
+
+
+
