@@ -19,9 +19,9 @@ const YESbank=new Bank("YESbank",455675844,"YES0005678","Pune");
 console.log(YESbank);
 console.log(`________________________________________Step2__________________________`);
 
-showDetails():{
-    console.log(`Bank Details: ${this.bankName} ${this.location} ${this.account} ${this.ifsc} ${this.interestRate} `);
-
+showDetails();{
+    console.log(`Bank Details: ${this.bankName} ${this.location} ${this.accNo} ${this.ifscCode} ${this.branchName} `);
+      function traverseobject(bankobject){
 for (const key in bankobject) {
     if (Object.hasOwnProperty.call(bankobject, key)) {
         const element = bankobject[key];
@@ -29,6 +29,8 @@ for (const key in bankobject) {
     } 
     }
 }
+}
+
 
 traverseobject(SBIbank);
 
