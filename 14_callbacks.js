@@ -8,3 +8,7 @@ function copyAssignments(){
     console.log(`ohh finally copied assignment`);
 }
 doAssignment(copyAssignments);
+function greet(){
+    console.log(`Good morning....`);
+}
+    setTimeout(greet,4000);
