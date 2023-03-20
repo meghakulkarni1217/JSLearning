@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Web Storage Demo</h2>
+        <h3>Local Storage</h3>
+    </body>
+    <script>
+        console.log("Local Storage");
+        window.localStorage.setItem("FullName","Megha Kulkarni");
+        window.localStorage.setItem("City", "Pune");
+        window.localStorage.setItem("pinCode","413305");
+        window.localStorage.setItem("District","Solapur");
+        console.log(window.localStorage.getItem("FullName"));
+        console.log(window.localStorage.getItem("City"));
+        console.log(window.localStorage.getItem("PinCode"));
+        console.log(window.localStorage.getItem("District"));
+        window.sessionStorage.removeItem("City");
+    </script>
+</html>
