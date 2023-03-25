@@ -21,7 +21,7 @@ Emp.forEach(Employee => {
     let emp_name = Employee.emp_name;
     let emp_company=Employee.emp_company;
     if(Employee.emp_company==="TCS"){
-console.log(`Employee Name is:${Employee.emp_name} and Company Name is:${Employee.emp_company} `);
+        console.log(`Employee Name is:${Employee.emp_name} and Company Name is:${Employee.emp_company} `);
 }
 });
 console.log(`___________________________________Step2______________________________________`);

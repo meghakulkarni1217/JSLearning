@@ -12,3 +12,9 @@ arrayNumbers.forEach((currentValue) =>{
 });
 console.log(arrayTransformed1);
 console.log("Add the index value into its corresponding each array element");
+const arrayindex=[];
+arrayNumbers.forEach((currentValue,index)=>{
+   arrayindex.push(currentValue+index)
+});
+console.log(`the given array is :${arrayNumbers}`);
+console.log(`Array After adding index value to each element:${arrayindex}`);
