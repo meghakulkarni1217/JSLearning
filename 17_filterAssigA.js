@@ -31,3 +31,11 @@ arrayNumbers.forEach(Element=>{
     }
 });
 console.log(newArray3);
+console.log("All numbers which are between 20 and 50");
+const newArray4=[];
+arrayNumbers.forEach(Element=>{
+    if (Element>20&&Element<50) {
+      newArray4.push(Element)  
+    }
+});
+console.log(newArray4);
